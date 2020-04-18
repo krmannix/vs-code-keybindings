@@ -1,0 +1,104 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "ctrl+/",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "cmd+b",
+    "command": "editor.action.goToDeclaration",
+    "when": "editorHasDefinitionProvider && editorTextFocus"
+  },
+  {
+    "key": "cmd+b",
+    "command": "editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "8 8",
+    "command": "editor.action.duplicateSelection",
+    "when": "editorHasSelection && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+d",
+    "command": "-editor.action.duplicateSelection",
+    "when": "editorHasSelection && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+i",
+    "command": "editor.action.nextSelectionMatchFindAction",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+f3",
+    "command": "-editor.action.nextSelectionMatchFindAction",
+    "when": "editorFocus"
+  },
+  {
+    "key": "alt+up",
+    "command": "cursorMove",
+    "args": {
+      "to": "up",
+      "by": "line",
+      "value": 10
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "cursorMove",
+    "args": {
+      "to": "down",
+      "by": "line",
+      "value": 10,
+      "select": true
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "cursorMove",
+    "args": {
+      "to": "up",
+      "by": "line",
+      "value": 10,
+      "select": true
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+down",
+    "command": "cursorMove",
+    "args": {
+      "to": "down",
+      "by": "line",
+      "value": 10
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+",
+    "command": "workbench.view.explorer"
+  },
+  {
+    "key": "shift+cmd+e",
+    "command": "-workbench.view.explorer"
+  },
+  {
+    "key": "cmd+k right",
+    "command": "workbench.action.splitEditorRight"
+  },
+  {
+    "key": "cmd+k down",
+    "command": "workbench.action.splitEditorDown"
+  },
+  {
+    "key": "cmd+k left",
+    "command": "workbench.action.splitEditorLeft"
+  },
+  {
+    "key": "cmd+k up",
+    "command": "workbench.action.splitEditorUp"
+  }
+]
+
