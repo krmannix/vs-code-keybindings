@@ -168,5 +168,15 @@
   {
     "key": "cmd+k cmd+down",
     "command": "-workbench.action.focusBelowGroup"
+  },
+  {
+    "key": "ctrl+shift+p",
+    "command": "editor.action.showHover",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+k cmd+i",
+    "command": "-editor.action.showHover",
+    "when": "editorTextFocus"
   }
 ]
